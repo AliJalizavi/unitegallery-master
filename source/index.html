@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gallery</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	
+	<script type='text/javascript' src='unitegallery/js/ug-common-libraries.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/ug-functions.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-thumbsgeneral.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-thumbsstrip.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-touchthumbs.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-panelsbase.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-strippanel.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-gridpanel.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-thumbsgrid.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-tiles.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-tiledesign.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-avia.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-slider.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-sliderassets.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-touchslider.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-zoomslider.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/ug-video.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-gallery.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-lightbox.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-carousel.js'></script>
+	<script type='text/javascript' src='unitegallery/js/ug-api.js'></script>
+
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	
+	<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' 		  href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	
+	
+</head>
+
+<body>
+	<button type="button" class="btn btn-primary modal-lg" data-bs-toggle="modal" data-bs-target="#myModal" >
+		Open gallery in modal mode
+	  </button>
+	</div>
+	
+	<!-- The Modal -->
+	<div class="modal" id="myModal">
+	  <div class="modal-dialog modal-fullscreen-xxl-down">
+		<div class="modal-content">
+	
+		  <!-- Modal Header -->
+		  <div class="modal-header">
+			<h4 class="modal-title">gallery</h4>
+			<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+		  </div>
+	
+		  <!-- Modal body -->
+		  <div class="modal-body">
+			<div id="gallery" style="display:none;">
+	
+				<img alt="Preview Image 1"
+					 src="1.jpg"
+					 data-image="1.jpg"
+					 data-description="Preview Image 1 Description">
+				
+				<img alt="Preview Image 2"
+					 src="2.jpg"
+					 data-image="2.jpg"
+					 data-description="Preview Image 2 Description">
+		
+					 
+				<img alt="Preview Image 3"
+					 src="3.jpg"
+					 data-image="3.jpg"
+					 data-description="Preview Image 3 Description">
+
+					
+				<img alt="Preview Image 4"
+					 src="4.jpg"
+					 data-image="4.jpg"
+					 data-description="Preview Image 4 Description">
+					 
+					
+				<img alt="Preview Image 5"
+				src="5.jpg"
+				data-image="5.jpg"
+				data-description="Preview Image 5 Description">
+									
+				<img alt="Preview Image 6"
+				src="6.jpg"
+				data-image="6.jpg"
+				data-description="Preview Image 6 Description">
+
+
+				<img alt="Preview Image 7"
+				src="7.jpg"
+				data-image="7.jpg"
+				data-description="Preview Image 7 Description">
+				
+
+				
+
+
+		
+					 
+				
+
+								  
+			</div>
+			
+			<script type="text/javascript">
+		
+				jQuery(document).ready(function(){
+		
+					jQuery("#gallery").unitegallery();
+		
+				});
+				
+			</script>
+		  </div>
+	
+		  <!-- Modal footer -->
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close unitegallery</button>
+		  </div>
+	
+		</div>
+	  </div>
+	</div>
+
+	
+	<div id="gallery" style="display:none;">
+	
+		<img alt="Preview Image 1"
+			 src="IMG_20200917_163200_816.jpg"
+			 data-image="IMG_20200917_163200_816.jpg"
+			 data-description="Preview Image 1 Description">
+		
+		<img alt="Preview Image 2"
+			 src="IMG_20210213_112509_043.jpg"
+			 data-image="IMG_20210213_112509_043.jpg"
+			 data-description="Preview Image 2 Description">
+
+		<img alt="Youtube Video"
+			 data-type="youtube"
+			 data-videoid="A3PDXmYoF5U"
+			 data-description="You can include youtube videos easily!">
+			 
+		<img alt="Preview Image 3"
+			 src="IMG_20210802_005004_394.jpg"
+			 data-image="IMG_20210802_005004_394.jpg"
+			 data-description="Preview Image 3 Description">
+
+		<img alt="Vimeo Video"
+			 data-type="vimeo"
+			 src="IMG_20210903_010656_212.jpg"
+			 data-image="IMG_20210903_010656_212.jpg"
+			 data-videoid="73234449"
+			 data-description="This gallery can also play vimeo videos!">
+			
+		<img alt="Preview Image 4"
+			 src="IMG_20210802_005004_394.jpg"
+			 data-image="IMG_20210802_005004_394.jpg"
+			 data-description="Preview Image 4 Description">
+		
+		<img alt="Html5 Video"
+			 src="images/thumbs/html5_video.png"
+			 data-type="html5video"
+			 data-image="http://video-js.zencoder.com/oceans-clip.png"
+			 data-videoogv="http://video-js.zencoder.com/oceans-clip.ogv"
+			 data-videowebm="http://video-js.zencoder.com/oceans-clip.webm"
+			 data-videomp4="http://video-js.zencoder.com/oceans-clip.mp4"
+	    	 data-description="This is html5 video demo played by mediaelement2 player">
+		
+		<img alt="Preview Image 5"
+			 src="images/thumbs/thumb1.jpg"
+			 data-image="images/big/image1.jpg"
+			 data-description="Preview Image 5 Description">
+
+		<img alt="Wistia Video"			
+			 src="images/thumbs/wistia_video.jpg"
+			 data-type="wistia"
+			 data-image="images/big/wistia_video.jpg"
+			 data-videoid="9oedgxuciv"
+			 data-description="Hey, the gallery plays Wistia videos too!">
+				
+		<img alt="Preview Image 6"
+			 src="images/thumbs/thumb2.jpg"
+			 data-image="images/big/image2.jpg"
+			 data-description="Preview Image 6 Description">
+
+
+		<img alt="Sound Cloud Track"			
+			 src="images/thumbs/sound_cloud.jpg"
+			 data-type="soundcloud"
+			 data-image="images/thumbs/sound_cloud.jpg"
+			 data-trackid="8390970"
+			 data-description="This gallery can play a soundcloud track">
+
+			 
+		<img alt="Preview Image 7"
+			 src="images/thumbs/thumb3.jpg"
+			 data-image="images/big/image3.jpg"
+			 data-description="Preview Image 7 Description">
+
+			 
+		<img alt="Preview Image 8"
+			 src="images/thumbs/thumb4.jpg"
+			 data-image="images/big/image4.jpg"
+			 data-description="Preview Image 8 Description">
+			 
+		<img alt="Preview Image 9"
+			 src="images/thumbs/thumb1.jpg"
+			 data-image="images/big/image1.jpg"
+			 data-description="Preview Image 9 Description">
+		
+		<img alt="Preview Image 10"
+			 src="images/thumbs/thumb2.jpg"
+			 data-image="images/big/image2.jpg"
+			 data-description="Preview Image 10 Description">
+			 
+		<img alt="Preview Image 11"
+			 src="images/thumbs/thumb3.jpg"
+			 data-image="images/big/image3.jpg"
+			 data-description="Preview Image 11 Description">
+			 			 
+	</div>
+	
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery();
+
+		});
+		
+	</script>
+
+
+</body>
+</html>
